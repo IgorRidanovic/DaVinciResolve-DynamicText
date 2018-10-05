@@ -1,0 +1,44 @@
+{
+	Tools = ordered() {
+		MacroTool1 = MacroOperator {
+			Outputs = {
+				MainOutput1 = InstanceOutput {
+					SourceOp = "Text1",
+					Source = "Output",
+				}
+			},
+			ViewInfo = GroupInfo { Pos = { 0, 0 } },
+			Tools = ordered() {
+				Text1 = TextPlus {
+					CtrlWZoom = false,
+					Inputs = {
+						Width = Input { Value = 1920, },
+						Height = Input { Value = 1080, },
+						UseFrameFormatSettings = Input { Value = 1, },
+						["Gamut.SLogVersion"] = Input { Value = FuID { "SLog2" }, },
+						Center = Input {
+							Value = { 0.356521739130435, 0.11 },
+							Expression = "Point(-time/230+.5, 0.11)",
+						},
+						StyledText = Input { Value = "<Token>", },
+						Font = Input { Value = "Open Sans", },
+						Style = Input { Value = "Bold", },
+						Size = Input { Value = 0.06, },
+						VerticalJustificationNew = Input { Value = 3, },
+						HorizontalLeftCenterRight = Input { Value = -1, },
+						HorizontalJustificationNew = Input { Value = 3, },
+						ManualFontKerningPlacement = Input {
+							Value = StyledText {
+								Array = {
+								},
+								Value = ""
+							},
+						},
+					},
+					ViewInfo = OperatorInfo { Pos = { 437, 121.288 } },
+				}
+			},
+		}
+	},
+	ActiveTool = "MacroTool1"
+}
