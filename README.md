@@ -12,3 +12,5 @@ It is necessary to click each button once before launching Resolve for the first
 Resolve loads the list or templates into the memory only once at start time. Once the
 templates are loaded we can click the buttons to refresh the templates. The text contents
 of the templates dropped on the timeline are frozen.
+
+Video exmample: https://www.youtube.com/watch?v=w9l1IFbcxno
